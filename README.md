@@ -20,7 +20,7 @@ student Grade Calcukator  by using node js ,express.ejs  template
 1. Clone the repository:  
 
    ```bash
-   git clone https://github.com/daitech80/QrCodeGenerator.git
+   git clone [https://github.com/daitech80/QrCodeGenerator.git](https://github.com/daitech80/StudGradeCalculator.git)
    1.##Install dependencies
    
    ```npm install
@@ -32,8 +32,8 @@ student Grade Calcukator  by using node js ,express.ejs  template
    
 ## GUI
 
-![front](https://github.com/user-attachments/assets/3a744a18-4fec-4ea8-8e4b-9edeb629e835)
-
-![generate](https://github.com/user-attachments/assets/1f47600d-a3b5-4b5c-a10b-afe656e9ac61)
 
 
+![grade cal](https://github.com/user-attachments/assets/97e57cc6-b8da-490d-8651-2c6d5f8de37f)
+
+![gard claculator](https://github.com/user-attachments/assets/a0a2c97b-9c06-40f7-a8ca-f2552d0cd212)
