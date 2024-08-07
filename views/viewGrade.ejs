@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grade Calculator</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Grade Calculator</h1>
+    
+    <% if (grades.length > 0) { %>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>Student Name</th>
+            <th>Average</th>
+            <th>Grade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% grades.forEach(grade => { %>
+            <tr>
+              <td><%= grade.studname %></td>
+              <td><%= grade.average %></td>
+              <td><%= grade.grade %></td>
+            </tr>
+          <% }); %>
+        </tbody>
+      </table>
+    <% } %>
+    <a href="/" role="button" class="btn btn-primary">Back to Home (ወደ ኋላ)</a>
+
+  </div>
+</body>
+</html>
